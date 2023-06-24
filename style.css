@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+body {
+    
+    background-color: rgb(119, 71, 196);
+}
+.container__caixa {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 20em;
+    height: 20em;
+    margin: auto; /* centralizou a div no meio da parte de cima da nossa página.*/
+    margin-top: 16em; /*deslocou a div para baixo */
+    border-radius: 9px; /* faz com que as bordas fiquem mais "arredondadas */
+}
+
+.container__titulo {
+    font-family: 'Caprasimo', cursive;
+}
+.container__texto {
+    margin: 1em;
+    border: 1px solid black;
+    display: block;
+    padding: 2px;
+    border-radius: 9px;
+}
+
+.container__caixa__botoes {
+border-radius: 9px;
+padding: 1em 1em;
+
+
+}
+
+.container__botao__enviar { 
+    background-color: green; /* criação da cor de fundo do botão */
+
+}
+
+.container__botao__apagar {
+    background-color: red;
+}
